@@ -5,7 +5,7 @@
 	and (max-device-width: 480px)
 	{
 		.wrapper {
-			width: 420px;
-			height: 420px;
+			width: 400px;
+			height: 400px;
 	}
 }
