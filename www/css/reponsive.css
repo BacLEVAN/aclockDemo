@@ -9,4 +9,12 @@
 			width: 420px;
     		height: 420px;
 		}
+
+		#clock {
+		    position: relative;
+		    width: 300px !important;
+		    height: 300px !important;
+		    background-image: url('../images/clockFace.png');
+		    margin: 3em auto;
+		}
 }
