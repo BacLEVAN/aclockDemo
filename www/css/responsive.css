@@ -1,11 +1,35 @@
 
-/* Portrait */
-@media only screen 
-	and (min-device-width: 320px) 
-	and (max-device-width: 480px)
-	{
-		.wrapper {
-			width: 400px;
-			height: 400px;
-	}
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 315px;
+/*	border: 1px solid red;*/
+	overflow: hidden;
+}
+
+.wrapper {
+	width: 315px;
+	height: auto;
+}
+
+#clock {
+    position: relative;
+    width: 300px !important;
+    height: 300px !important;
+    background-image: url('../images/clockFace.png');
+    background-size: 300px 300px;
+    margin: 0 auto;
+}
+
+img {
+	width: 300px !important;
+    height: 300px !important;
+    /*border: 1px solid;*/
+    border-radius: 50%;
+}
+
+.learn {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
 }

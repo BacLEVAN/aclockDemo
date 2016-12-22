@@ -11,16 +11,6 @@ $(function(){
         }
     }
 
-    if(window.location.hash === "#clock") {
-        startClock();
-        $('p.start').remove();
-    } else {
-        $('#start').click(function() {
-            startClock();
-            $('p.start').remove();
-        });
-    }
-
     function startClock() {
         var angle = 360/60,
             date = new Date(),
@@ -35,4 +25,7 @@ $(function(){
             $('#hour')[0].style[prop] = 'rotate('+hourAngle+'deg)';
         }
     }
+
+    // Thực hiện chạy đồng hồ ngay khi load trang
+    setInterval(function(){startClock();}, 500);
 });
