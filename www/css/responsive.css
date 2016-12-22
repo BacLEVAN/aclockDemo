@@ -28,7 +28,7 @@ img {
     border-radius: 50%;
 }
 
-.learn {
+.learn, #id-audio {
 	display: block;
 	margin: 0 auto;
 	text-align: center;
